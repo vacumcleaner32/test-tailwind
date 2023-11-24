@@ -52,14 +52,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const darkToggle = document.querySelector('#dark-toggle');
     const html = document.querySelector('html');
-    let a = 1;
+
+
+    if(localStorage.theme == 'dark') {
+        html.classList.add('dark')
+        darkToggle.checked = true;
+    }
+
+    
 
     darkToggle.addEventListener('click' , () => {
         if(darkToggle.checked) {
-            darkToggle.classList.add('nanana')
+            html.classList.add('dark')
+            localStorage.theme = 'dark';
         }
         else {
-            darkToggle.classList.remove('nanana');
+            html.classList.remove('dark');
+            localStorage.theme = 'light';
         }
     });    
 });

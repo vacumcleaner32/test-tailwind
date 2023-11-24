@@ -21,24 +21,24 @@
                         <span class="hamburger-line transition duration-300 ease-in-out"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
                     </button>
-                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark dark:shadow-slate-950 lg:dark:bg-transparent">
                         <ul class="block lg:flex">
                             <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Home</a>
                             </li>
                             <li class="group">
-                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About</a>
+                                <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">About</a>
                             </li>
                             <li class="group">
-                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                                <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Portfolio</a>
                             </li>
                             <li class="group">
-                                <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                                <a href="#clients" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Clients</a>
                             </li>
                             <li class="group">
-                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                                <a href="#contact" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Contact</a>
                             </li>
-                            <li class="m-auto pl-10">
+                            <li class="mx-auto pl-10 mt-6 lg:mt-3">
                                 <div class="flex">
                                     <span class="mr-2 text-sm text-slate-500">light</span>
                                     <input type="checkbox" class="hidden" id="dark-toggle">
@@ -59,12 +59,12 @@
     <!-- Header Section End -->
 
     <!-- Hero Section Start  -->
-    <section id="home" class="pt-36">
+    <section id="home" class="pt-36 dark:bg-dark">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full h-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua 👋, I am <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Fliklv</span></h1>
-                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Developer &<span class="text-dark"> Handsome</span></h2>
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Halo Semua 👋, I am <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white">Fliklv</span></h1>
+                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl dark:text-white">Developer &<span class="text-dark"> Handsome</span></h2>
                     <p class="text-secondary font-medium mb-10 leading-relaxed">Tailwind testing, i hope this is going to be fun</p>
 
                     <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Contact Me</a>
@@ -72,8 +72,8 @@
                 
                 <div class="w-full self-end px-4 lg:w-1/2">
                     <div class="relative mt-10 lg:mt-0 lg:mr-0">
-                        <img src="dist/img/hero.png" alt="hero" class="max-w-full mx-auto">
-                        <span class="absolute bottom-1/2 translate-y-1/2 -z-10 left-1/2 -translate-x-1/2 sm:scale-150">
+                        <img src="dist/img/hero.png" alt="hero" class="max-w-full mx-auto relative z-10">
+                        <span class="absolute bottom-1/2 translate-y-1/2 left-1/2 -translate-x-1/2 sm:scale-150">
                             <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#14b8a6" d="M25.2,-28.5C39.5,-24.4,62.5,-26.1,71.2,-18.6C79.9,-11.1,74.4,5.6,64.8,16.7C55.2,27.8,41.7,33.2,30.2,42.9C18.7,52.6,9.4,66.6,-2.1,69.5C-13.6,72.4,-27.2,64.3,-30.6,52C-34,39.7,-27.2,23.1,-27.5,11.5C-27.8,-0.2,-35.2,-7,-37.6,-16.2C-40.1,-25.3,-37.5,-36.7,-30.4,-43.2C-23.3,-49.6,-11.7,-51.1,-3.1,-46.9C5.5,-42.6,11,-32.6,25.2,-28.5Z" transform="translate(100 100) scale(0.85)" />
                               </svg>
@@ -89,16 +89,16 @@
 
 
     <!-- About Section Start -->
-    <section id="about" class="pt-36 pb-32">
+    <section id="about" class="pt-36 pb-32 dark:bg-dark">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-sm lg:text-4xl">Trying Something New Everyday</h2>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-sm lg:text-4xl dark:text-white">Trying Something New Everyday</h2>
                     <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, praesentium assumenda explicabo ullam maiores aspernatur eos?</p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
-                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white">
                         Let's be friends
                     </h3>
                     <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
@@ -139,12 +139,12 @@
 
 
     <!-- Portfolio Section Start -->
-    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100 dark:bg-slate-800">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
-                    <h2 class="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl">Newest Project</h2>
+                    <h2 class="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl dark:text-white">Newest Project</h2>
                     <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minima officia deleniti? Cupiditate magni est omnis aut animi. Impedit, perferendis.</p>
                 </div>
             </div>
@@ -155,28 +155,28 @@
                 <div class="rounded shadow-md overflow-hidden">
                     <img src="dist/img/portfolio/1.jpg" alt="one" class="w-full" />
                 </div>
-                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Style One</h3>
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Style One</h3>
                 <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, laboriosam tempora eaque quaerat enim ut aperiam, amet tenetur possimus aliquam omnis id sint ipsum voluptas provident quod recusandae exercitationem soluta?.</p>
             </div>
             <div class="mb-12 p-4 md:w-1/2">
                 <div class="rounded shadow-md overflow-hidden">
                     <img src="dist/img/portfolio/2.jpg" alt="two" class="w-full" />
                 </div>
-                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Style Two</h3>
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Style Two</h3>
                 <p class="font-medium text-base text-secondary md:text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, laboriosam tempora eaque quaerat enim ut aperiam, amet tenetur possimus aliquam omnis id sint ipsum voluptas provident quod recusandae exercitationem soluta?.</p>
             </div>
             <div class="mb-12 p-4 md:w-1/2">
                 <div class="rounded shadow-md overflow-hidden">
                     <img src="dist/img/portfolio/3.jpg" alt="three" class="w-full" />
                 </div>
-                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Style Three</h3>
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Style Three</h3>
                 <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, laboriosam tempora eaque quaerat enim ut aperiam, amet tenetur possimus aliquam omnis id sint ipsum voluptas provident quod recusandae exercitationem soluta?.</p>
             </div>
             <div class="mb-12 p-4 md:w-1/2">
                 <div class="rounded shadow-md overflow-hidden">
                     <img src="dist/img/portfolio/4.jpg" alt="four" class="w-full" />
                 </div>
-                <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Style Four</h3>
+                <h3 class="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Style Four</h3>
                 <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, laboriosam tempora eaque quaerat enim ut aperiam, amet tenetur possimus aliquam omnis id sint ipsum voluptas provident quod recusandae exercitationem soluta?.</p>
             </div>
         </div>
@@ -185,13 +185,13 @@
 
 
     <!-- Clients Section Start -->
-    <section id="clients" class="pt-36 pb-32 bg-slate-800">
+    <section id="clients" class="pt-36 pb-32 bg-slate-800 dark:bg-slate-300">
         <div class="container ">
             <div class="w-full px-4">
                 <div class="w-full px-4">
                     <div class="mx-auto text-center mb-16">
                         <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
-                        <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Partnered</h2>
+                        <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark">Partnered</h2>
                         <p class="font-medium text-md text-secondary md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolore quidem illo.</p>
                     </div>
                 </div>
@@ -219,12 +219,12 @@
 
 
     <!-- Blog Section Start -->
-    <div id="blog" class="pt-36 pb-32 bg-slate-100">
+    <div id="blog" class="pt-36 pb-32 bg-slate-100 dark:bg-dark">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
-                    <h2 class="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl">News</h2>
+                    <h2 class="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl dark:text-white">News</h2>
                     <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis recusandae totam ullam modi commodi?</p>
                 </div>
             </div>
@@ -232,11 +232,11 @@
 
             <div class="flex flex-wrap">
                 <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                    <div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden mb-10">
                         <img src="https:///source.unsplash.com/360x200?programming" alt="Programming" class="w-full">
                         <div class="py-8 px-6">
                             <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl hover:text-primary truncate">
+                                <a href="#" class="block mb-3 font-semibold text-xl hover:text-primary truncate dark:text-white">
                                     Learn How to Code
                                 </a>
                         </h3>
@@ -246,11 +246,11 @@
                     </div>
                 </div>
                 <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                    <div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden mb-10">
                         <img src="https:///source.unsplash.com/360x200?Keyboard" alt="Keyboard" class="w-full">
                         <div class="py-8 px-6">
                             <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl hover:text-primary truncate">
+                                <a href="#" class="block mb-3 font-semibold text-xl hover:text-primary truncate dark:text-white">
                                     Keyboards Review
                                 </a>
                         </h3>
@@ -260,11 +260,11 @@
                     </div>
                 </div>
                 <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                    <div class="bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden mb-10">
                         <img src="https:///source.unsplash.com/360x200?Coffee" alt="Coffee" class="w-full">
                         <div class="py-8 px-6">
                             <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl hover:text-primary truncate">
+                                <a href="#" class="block mb-3 font-semibold text-xl hover:text-primary truncate dark:text-white">
                                     All About Coffee
                                 </a>
                         </h3>
@@ -280,12 +280,12 @@
 
 
     <!-- Contact Section Start -->
-    <section id="contact" class="pt-36 pb-32">
+    <section id="contact" class="pt-36 pb-32 dark:bg-slate-800">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
-                    <h2 class="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl">Contact Us</h2>
+                    <h2 class="font-bold text-dark text-3xl sm:text-4xl lg:text-5xl dark:text-white">Contact Us</h2>
                     <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, vero!</p>
                 </div>
             </div>
